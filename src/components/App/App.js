@@ -1,5 +1,8 @@
 import Game from '../Game';
+import JohshGame from '../JoshGame';
+
 import Header from '../Header';
+import GuessBar from '../GuessBar';
 
 function App() {
   return (
@@ -7,7 +10,7 @@ function App() {
       <Header />
 
       <div className="game-wrapper">
-        <Game />
+         <JohshGame />
       </div>
     </div>
   );
